@@ -1,0 +1,280 @@
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: sans-serif, Arial;
+    overflow: auto;
+    background-color: black;
+}
+#logoName{
+    color: white;
+    margin: 3px;
+    padding-left: 10px;
+}
+.header{
+    background-color: #2e332f;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #FFD535;
+    text-align: center;
+}
+
+#searchingbar{
+    float: right;
+    height:auto;
+    width: 300px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: white;
+    margin-bottom: 30px;
+    margin-right: 12px;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:darkgray;
+}
+
+li .dropdown {
+    display: inline-block;
+}
+
+.slidesMovies{
+    max-width: 1249px;
+    position: relative;
+    margin: auto;
+}
+.mySlides{
+   /*display: none;*/
+}
+.slide{
+    max-width: 1249px;
+    max-height: 550px;
+    width: 100%;
+    opacity: 0.4;
+}
+.text{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+}
+
+.dot{
+    cursor:pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    text-align: center;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.movieImages{
+    width:100%;
+}
+
+p{
+    color: white;
+    margin: 20px;
+}
+#movieHeading{
+    color: white;
+}
+
+.movieDisplay{
+    display: inline;
+}
+
+#movies{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.movieImages{
+    position: relative;
+    width: 186px;
+    height: 260px;
+    max-height: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+div section article div{
+    max-width:30%;
+    display: inline-block;
+}
+div section article div p{
+    color: white;
+    text-align: left;
+    margin-left: 25px;
+}
+
+#pages{
+    text-align: center;
+}
+
+footer{
+    background-color: #2e332f;
+    clear: left;
+    margin-top: 20px;
+}
+.footerinfo{
+    display: inline-block;
+    margin: 25px;
+}
+
+.footerImg{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin: 5px;
+}
+
+.contactLink{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    color: white;
+}
+
+.Container{
+    background-color: black;
+    margin: 10px;
+
+}
+
+.left-container{
+    width:70%;
+    float: left;
+}
+.right-container{
+    width: 30%;
+    float: left;
+}
+#about{
+
+}
+aside p{
+    font-size: 80%;
+}
+
+/*Contact Styles*/
+#submit{
+    margin-left:200px ;
+}
+input[type=text]{
+    border: none;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+label{
+    color: white;
+    max-width: 100%;
+}
+#message{
+    position: absolute;
+}
+#messageArea{
+    margin-left: 130px;
+}
+#FristnameArea{
+    margin-left: 50px;
+}
+#LastnameArea{
+    margin-left: 50px;
+}
+#phoneArea{
+    margin-left: 20px;
+}
+#emailArea{
+    margin-left: 80px;
+}
+form{
+    padding: 10px;
+}
+
+/*Service Styles*/
+#movieDetails{
+
+}
+.left{
+    width: 50%;
+    float: left;
+}
+.right{
+    width: 50%;
+    float: left;
+}
+#coco{
+    font-size: 32px;
+}
+.detail{
+    font-size: 16px;
+    font-style: normal;
+}
+.structure{
+    margin-top: 10px;
+    clear: left;
+}
+h1{
+    color: white;
+}
+#ticket{
+    margin-left: 20px;
+    background-color: #FECB00;
+    color: black;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 30px;
+}
+#Cast{
+    background-color: black;
+    color:white ;
+}
+.trailer{
+    border: none;
+}
+@media screen and (max-width: 960px) {
+    .col-1 { width: 8.33%; }
+    .col-2 { width: 16.66%; }
+    .col-3 { width: 25%; }
+    .col-4 { width: 33.33%; }
+    .col-5 { width: 41.66%; }
+    .col-6 { width: 50%; }
+    .col-7 { width: 58.33%; }
+    .col-8 { width: 66.66%; }
+    .col-9 { width: 75%; }
+    .col-10 { width: 83.33%; }
+    .col-11 { width: 91.66%; }
+    .col-12 { width: 100%; }
+}

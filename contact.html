@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="myStyles.css">
+    <script src="myScript.js"></script>
+</head>
+<body>
+<div id="main_container">
+    <header class="header">
+        <h1 id="logoName">TigerPlex</h1>
+        <form id="searchbar">
+            <input id="searchingbar" type="text" name="searching" placeholder="Search">
+        </form>
+    </header>
+
+    <nav id="main_nav">
+        <ul>
+            <li class="dropdown">
+                <a href="Index.html" target="_blank" class="dropbtn">Home</a>
+            </li>
+
+            <li class="dropdown">
+                <a href="" target="_blank" class="dropbtn">Now Playing</a>
+            </li>
+
+            <li class="dropdown">
+                <a href="" class="dropbtn">Coming Soon</a>
+            </li>
+
+            <li class="dropdown">
+                <a href="" class="dropbtn">Locations</a>
+            </li>
+
+            <li class="dropdown">
+                <a href="about.html" target="_blank" class="dropbtn">About</a>
+            </li>
+
+            <li class="dropdown">
+                <a href="about.html" target="_blank" class="dropbtn">Buy Ticket</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="Container">
+        <div class="left-container">
+            <article id="contact">
+                <h2 style="font-style: italic ">Contact Us </h2>
+                <form id="contactForm">
+                    <label id="FirstName">First Name:</label><textarea id="FristnameArea" class="input" rows="1" cols="50" placeholder="Please enter your first name" required></textarea>
+                    <br><br>
+                    <label id="LastName">Last Name:</label><textarea id="LastnameArea" class="input" rows="1" cols="50" placeholder="Please enter your last name" required></textarea>
+                    <br><br>
+                    <label id="PhoneNumber">Phone Number:</label><textarea id="phoneArea" class="input" rows="1" cols="50" placeholder="Please enter your phone number" required></textarea>
+                    <br><br>
+                    <label id="email">E-mail:</label><textarea id="emailArea" class="input" rows="1" cols="50" placeholder="Please enter your Email" required></textarea>
+                    <br><br>
+                    <label id="message">Message:</label><textarea id="messageArea" class="input" rows="4" cols="50" placeholder="Tell us what you think!"></textarea>
+                    <br><br>
+                    <button id="submit" onclick="check()" type="submit">Submit</button>
+                </form>
+            </article>
+        </div>
+
+        <div class="right-container">
+            <aside>
+                <h2 style="font-style: italic">Contact Information</h2>
+                <p>E-mail: contact@tigerplex.com</p>
+                <p>Phone: 888-888-8888</p>
+                <p>Address: 128 King St., Queen City, King Provience, Canada B00 G00</p>
+            </aside>
+        </div>
+
+    </div>
+    <footer>
+        <div id="footerContainer">
+            <div class="footerinfo">
+                <a href="about.html" class="contactLink">
+                    <h3>Information</h3>
+                </a>
+                <p>Help Center</p>
+                <p>TigerPlex Careers</p>
+                <p>Digital Media</p>
+            </div>
+
+            <div class="footerinfo">
+                <a href="contact.html" class="contactLink">
+                    <h3>Contact</h3>
+                </a>
+                <p>E-mail: contact@tigerplex.com</p>
+                <p>Phone: 888-888-8888</p>
+                <p>Address: 128 King St., Queen City, King Provience, Canada B00 G00</p>
+            </div>
+
+            <div class="footerinfo">
+                <a href="https://www.facebook.com/FacebookFrance/photos/a.179107832122241.40844.179106818789009/1151570934875921/?type=1&theater" target="_blank">
+                    <img class="footerImg" alt="Facebook" src="Images/FackBook.png">
+                    <!--Image reference: https://www.facebook.com/FacebookFrance/photos/a.179107832122241.40844.179106818789009/1151570934875921/?type=1&theater-->
+                </a>
+                <a href="https://www.instagram.com/" target="_blank"><img class="footerImg" alt="Instragram" src="Images/Ins.png"></a>
+                <!--Image reference: https://www.facebook.com/InstagramEnglish/photos/a.162454447121952.37024.162454007121996/1302033193164066/?type=1&theater-->
+                <a href="https://www.youtube.com/" target="_blank"><img class="footerImg" alt="Youtube" src="Images/YoutuBe.png"></a>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
